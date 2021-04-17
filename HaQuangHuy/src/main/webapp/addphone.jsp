@@ -23,7 +23,7 @@
             <input type="hidden" name="id" value="${p.id}">
             <div class="form-group">
                 <label>Name :</label>
-                <input class="form-control" type="text" name="name" value="${p.name}">
+                <input class="form-control" type="text" name="name" value="${p.name}" required>
             </div>
             <div class="form-group">
                 <label>Choose a brand :</label>
@@ -37,11 +37,11 @@
 
             <div class="form-group">
                 <label>Price :</label>
-                <input class="form-control" type="text" name="price" value="${p.price}">
+                <input class="form-control" type="text" name="price" value="${p.price}" required>
             </div>
             <div class="form-group">
                 <label>Description :</label>
-                <input class="form-control" type="text" name="description" value="${p.description}">
+                <input class="form-control" type="text" name="description" value="${p.description}" required>
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
